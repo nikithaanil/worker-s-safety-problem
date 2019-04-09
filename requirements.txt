@@ -1,0 +1,31 @@
+PyWavelets
+Numpy
+Scipy
+Scikit-learn
+Pandas
+Pillow
+Matplotlib
+Pyserial
+
+
+
+
+
+This project aims at ensuring the safety of workers engaged in heavy lifting works to determine if the load they handle is perilous or not thereby ensuring their safety. 
+
+In order to obtain the signals being generated from the body as a result of lifting heavy loads, the concept of the non-invasive technique is used, and the project undergoes the following steps:
+
+1) EMG signals being produced are obtained using Myoband.
+2) Signals obtained are filtered and freed from the noise and useful data are obtained using Signal Processing method.
+3) Finally, the data is being categorised into different classes and when a new signal comes, it is able to categorise it accordingly.
+
+Requirements
+
+a) PyWavelets
+b) Numpy
+c) Scipy
+d) Scikit-learn
+e) Pandas
+f) Pillow
+g) Matplotlib
+h) Pyserial
